@@ -2,7 +2,7 @@ let darkMode = localStorage.getItem('darkMode');
 const toggleMode = document.getElementById('change-theme-btn');
 
 // Activation du mode sombre
-const enableDarkMode = () => {
+function enableDarkMode() {
 
     document.body.classList.add("dark-mode"); // Je donne la classe 'dark-mode' à la balise body
 

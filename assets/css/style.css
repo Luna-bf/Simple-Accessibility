@@ -157,11 +157,16 @@ nav {
 }
 
 article {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
-p {
+#firstPar {
+    margin-top: 3em;
+    font-weight: 200;
+}
+
+section article>p {
     margin-bottom: 2em;
 }
 
