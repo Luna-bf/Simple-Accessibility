@@ -1,4 +1,3 @@
-
 let darkMode = localStorage.getItem('darkMode');
 const toggleMode = document.getElementById('change-theme-btn');
 
