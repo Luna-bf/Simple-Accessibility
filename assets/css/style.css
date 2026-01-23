@@ -1,7 +1,7 @@
 /***CSS variables***/
 
 :root {
-    --base-bg-color: #fff;
+    --background-color: #fff;
     --text-color: #000000;
     --accessibility-bg-color: #fff;
     --accessibility-bg-color-hover: #FAFBF5;
@@ -15,7 +15,7 @@
 }
 
 .dark-mode {
-    --base-bg-color: #333333;
+    --background-color: #333333;
     --text-color: #fff;
     --accessibility-bg-color: #333333;
     --accessibility-bg-color-hover: #444444;
@@ -44,7 +44,7 @@ html {
 
 body {
     font-family: Tahoma, sans-serif;
-    background-color: var(--base-bg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     transition: all .3s ease;
 }
