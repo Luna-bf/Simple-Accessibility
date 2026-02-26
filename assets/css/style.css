@@ -44,10 +44,6 @@ body {
 
 nav {
     padding: 1em;
-    height: 10vh;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 /* #space-between {
@@ -154,7 +150,6 @@ article {
 
 #firstPar {
     margin-top: 3em;
-    font-weight: 200;
 }
 
 section article>p {
@@ -173,8 +168,8 @@ select {
 
 /* Le design mobile s'affiche lorsque la largeur de l'écran est inférieure ou égale à 768px */
 @media only screen and (max-width : 768px) {
-    body {
-        width: 100%;
-        background-color: aqua;
+
+    #firstPar {
+        margin-top: 1.5em;
     }
 }
