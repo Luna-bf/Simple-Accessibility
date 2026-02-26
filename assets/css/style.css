@@ -34,7 +34,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: Tahoma, sans-serif;
     background-color: var(--background-color);
@@ -46,10 +45,10 @@ nav {
     padding: 1em;
 }
 
-/* #space-between {
+#space-between {
     display: flex;
     width: 85%;
-} */
+}
 
 
 /***Dropdown menu***/
@@ -168,6 +167,18 @@ select {
 
 /* Le design mobile s'affiche lorsque la largeur de l'écran est inférieure ou égale à 768px */
 @media only screen and (max-width : 768px) {
+
+    .fa-universal-access {
+        color: firebrick;
+        text-decoration: none;
+        font-size: 3.7rem;
+        margin-left: 7.8em;
+    }
+
+    select {
+        margin-left: 18.4em;
+        margin-top: 0.8em;
+    }
 
     #firstPar {
         margin-top: 1.5em;
