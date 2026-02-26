@@ -67,6 +67,7 @@ nav {
     background-color: var(--accessibility-bg-color);
     border: 1px solid var(--accessibility-border-color);
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .dropdown-content a {
@@ -171,6 +172,10 @@ select {
 
     nav {
         justify-content: flex-end;
+    }
+
+    .dropdown-content {
+        right: 5px;
     }
 
     .fa-universal-access {
