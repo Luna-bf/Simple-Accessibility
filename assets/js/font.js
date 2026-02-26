@@ -15,5 +15,5 @@ decrement.addEventListener("click", () => {
 
 resetAll.addEventListener("click", () => {
     document.querySelector("body").style.fontSize = "16px";
-    elements.darkMode = disableDarkMode();
+    darkMode = disableDarkMode();
 });
