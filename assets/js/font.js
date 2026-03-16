@@ -6,14 +6,14 @@ let resetAll = document.getElementById("resetAll");
 
 /* Accessibilité */
 increment.addEventListener("click", () => {
-    document.querySelector("body").style.fontSize = "24px";
+    document.querySelector("article").style.fontSize = "24px";
 });
 
 decrement.addEventListener("click", () => {
-    document.querySelector("body").style.fontSize = "16px";
+    document.querySelector("article").style.fontSize = "16px";
 });
 
 resetAll.addEventListener("click", () => {
-    document.querySelector("body").style.fontSize = "16px";
+    document.querySelector("article").style.fontSize = "16px";
     darkMode = disableDarkMode();
 });
