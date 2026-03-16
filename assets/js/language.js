@@ -37,28 +37,28 @@ languageSelector.addEventListener("change", (event) => {
 
 function setLanguage(language) {
     if(language === "fr") {
-        increment.innerText = translations.fr.increment;
-        decrement.innerText = translations.fr.decrement;
-        changeTheme.innerText = translations.fr.changeTheme;
-        resetAll.innerText = translations.fr.resetAll;
-        select.innerText = translations.fr.select;
-        firstPar.innerText = translations.fr.firstPar;
-        secondPar.innerText = translations.fr.secondPar;
-        thirdPar.innerText = translations.fr.thirdPar;
-        fourthPar.innerText = translations.fr.fourthPar;
-        fifthPar.innerText = translations.fr.fifthPar;
-        source.innerText = translations.fr.source;
+        increment.textContent = translations.fr.increment;
+        decrement.textContent = translations.fr.decrement;
+        changeTheme.textContent = translations.fr.changeTheme;
+        resetAll.textContent = translations.fr.resetAll;
+        select.textContent = translations.fr.select;
+        firstPar.textContent = translations.fr.firstPar;
+        secondPar.textContent = translations.fr.secondPar;
+        thirdPar.textContent = translations.fr.thirdPar;
+        fourthPar.textContent = translations.fr.fourthPar;
+        fifthPar.textContent = translations.fr.fifthPar;
+        source.textContent = translations.fr.source;
     } else if(language === "en") {
-        increment.innerText = translations.en.increment;
-        decrement.innerText = translations.en.decrement;
-        changeTheme.innerText = translations.en.changeTheme;
-        resetAll.innerText = translations.en.resetAll;
-        select.innerText = translations.en.select;
-        firstPar.innerText = translations.en.firstPar;
-        secondPar.innerText = translations.en.secondPar;
-        thirdPar.innerText = translations.en.thirdPar;
-        fourthPar.innerText = translations.en.fourthPar;
-        fifthPar.innerText = translations.en.fifthPar;
-        source.innerText = translations.en.source;
+        increment.textContent = translations.en.increment;
+        decrement.textContent = translations.en.decrement;
+        changeTheme.textContent = translations.en.changeTheme;
+        resetAll.textContent = translations.en.resetAll;
+        select.textContent = translations.en.select;
+        firstPar.textContent = translations.en.firstPar;
+        secondPar.textContent = translations.en.secondPar;
+        thirdPar.textContent = translations.en.thirdPar;
+        fourthPar.textContent = translations.en.fourthPar;
+        fifthPar.textContent = translations.en.fifthPar;
+        source.textContent = translations.en.source;
     }
 };
