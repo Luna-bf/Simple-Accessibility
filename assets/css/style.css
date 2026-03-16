@@ -170,65 +170,30 @@ select {
 /*** RESPONSIVE DESIGN ***/
 /* 0px – 639px (Mobile) */
 @media (min-width: 0px) and (max-width: 639px) {
-    body {
-        background-color: green;
-    }
-    
+
     nav {
         justify-content: flex-end;
+        padding: 1em 0 0 1em;
     }
 
-    /* .dropdown-content {
+    .dropdown-content {
         right: 5px;
-    } */
+    }
 
     .fa-universal-access {
-        color: firebrick;
-        text-decoration: none;
         font-size: 3.7rem;
         margin: 0;
     }
 
     .choose-language {
         justify-content: flex-end;
-        margin-top: 0.8em;
+    }
+
+    select {
+        margin: 20px 0 2em 1.5em;
     }
 
     #firstPar {
         margin-top: 1.5em;
-    }
-}
-
-/* 640px - 767px (Small Tablet/Large phone) */
-@media (min-width: 640px) and (max-width: 767px) {
-    body {
-        background-color: pink;
-    }
-}
-
-/* 767px - 1023px (Tablet) */
-@media (min-width: 768px) and (max-width: 1023px) {
-    body {
-        background-color: orange;
-    }
-}
-
-/* 1024px - 1279px (Laptop) */
-@media (min-width: 1024px) and (max-width: 1279px) {
-    body {
-        background-color: rgb(85, 55, 60);
-    }
-}
-
-/* 1280px - 1535px (Laptop) */
-@media (min-width: 1280px) and (max-width: 1535px) {
-    body {
-        background-color: violet;
-    }
-}
-
-@media (min-width: 1536px) {
-    body {
-        background-color: rgb(130, 218, 238);
     }
 }
