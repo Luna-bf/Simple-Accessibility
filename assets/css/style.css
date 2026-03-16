@@ -120,7 +120,7 @@ nav {
 .fa-universal-access {
     color: firebrick;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 article {
@@ -148,7 +148,7 @@ p a {
 
 select {
     padding: 8px;
-    margin: 2em 0 2em 1.5em;
+    margin: 15px 0 2em 1.5em;
     font-size: 16px;
 }
 
