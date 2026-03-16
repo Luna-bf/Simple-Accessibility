@@ -141,6 +141,7 @@ nav {
 article {
     width: 85%;
     margin: auto;
+    transition: all .3s ease;
 }
 
 #firstPar {
@@ -190,7 +191,7 @@ select {
     }
 
     select {
-        margin: 20px 0 2em 1.5em;
+        margin: 40px 0 2em 1.5em;
     }
 
     #firstPar {
