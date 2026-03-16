@@ -45,8 +45,6 @@ function setLanguage(language) {
         firstPar.textContent = translations.fr.firstPar;
         secondPar.textContent = translations.fr.secondPar;
         thirdPar.textContent = translations.fr.thirdPar;
-        fourthPar.textContent = translations.fr.fourthPar;
-        fifthPar.textContent = translations.fr.fifthPar;
         source.textContent = translations.fr.source;
     } else if(language === "en") {
         increment.textContent = translations.en.increment;
@@ -57,8 +55,6 @@ function setLanguage(language) {
         firstPar.textContent = translations.en.firstPar;
         secondPar.textContent = translations.en.secondPar;
         thirdPar.textContent = translations.en.thirdPar;
-        fourthPar.textContent = translations.en.fourthPar;
-        fifthPar.textContent = translations.en.fifthPar;
         source.textContent = translations.en.source;
     }
 };
