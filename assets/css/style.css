@@ -92,44 +92,29 @@ nav {
     display: block;
 }
 
-.dropdown-content a:first-child::before {
+.dropdown-content a::before {
     font-family: "Font Awesome 5 Free";
-    content: "\f00e";
     padding-right: 10px;
     vertical-align: middle;
     font-weight: 900;
     color: var(--text-color);
     font-size: 18px;
+}
+
+.dropdown-content a:first-child::before {
+    content: "\f00e";
 }
 
 .dropdown-content a:nth-child(2)::before {
-    font-family: "Font Awesome 5 Free";
     content: "\f010";
-    padding-right: 10px;
-    vertical-align: middle;
-    font-weight: 900;
-    color: var(--text-color);
-    font-size: 18px;
 }
 
 .dropdown-content a:nth-child(3)::before {
-    font-family: "Font Awesome 5 Free";
     content: "\f042";
-    padding-right: 10px;
-    vertical-align: middle;
-    font-weight: 900;
-    color: var(--text-color);
-    font-size: 18px;
 }
 
 .dropdown-content a:last-child::before {
-    font-family: "Font Awesome 5 Free";
     content: "\f021";
-    padding-right: 10px;
-    vertical-align: middle;
-    font-weight: 900;
-    color: var(--text-color);
-    font-size: 18px;
 }
 
 .fa-universal-access {
@@ -179,6 +164,15 @@ select {
 
     .dropdown-content {
         right: 5px;
+    }
+
+    .dropdown-content {
+        font-size: 18px;
+    }
+
+    .dropdown-content a::before {
+        padding-right: 18px;
+        font-size: 20px;
     }
 
     .fa-universal-access {
